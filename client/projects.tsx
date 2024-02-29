@@ -2,7 +2,6 @@
 
 import FeedCard from "@/components/feed-card";
 import CTASection from "@/sections/cta-section";
-import FooterSection from "@/sections/footer-section";
 import { feed } from "@/utilities/content";
 import { ArrowBackRounded } from "@mui/icons-material";
 import { Masonry } from "@mui/lab";
@@ -77,7 +76,6 @@ export default function ProjectsPageClient() {
           </Masonry>
         </Container>
       </Box>
-      <FooterSection />
       <CTASection />
     </>
   );

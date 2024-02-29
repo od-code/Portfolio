@@ -1,7 +1,7 @@
 "use client";
 
 import CTASection from "@/sections/cta-section";
-import FooterSection from "@/sections/footer-section";
+import FooterSection from "@/sections/work-section";
 import { appURL } from "@/utilities/constants";
 import { ArrowBackRounded } from "@mui/icons-material";
 import {

@@ -6,6 +6,7 @@ import { cardItem, textContainer } from "@/utilities/framer";
 import {
   Box,
   Container,
+  Grid,
   Stack,
   Typography,
   useMediaQuery,
@@ -53,48 +54,55 @@ export default function ProfileSection() {
       >
         <Container maxWidth="md">
           <Box sx={{ height: appBarHeight }} />
-          <Stack spacing={2} alignItems="center">
+          <Grid
+            container
+            rowSpacing={2}
+            spacing={2}
+            justifyContent="space-between"
+          >
+            <Stack spacing={2} alignItems="center" justifyContent="center">
+              <Stack
+                component={motion.div}
+                variants={textContainer}
+                initial="hidden"
+                animate="visible"
+                spacing={0.5}
+                alignItems="center"
+              >
+                <Typography
+                  variant="h4"
+                  sx={{ textAlign: "center" }}
+                  component={motion.div}
+                  variants={cardItem}
+                >
+                  {name}
+                </Typography>
+                <Typography
+                  variant="h6"
+                  sx={{ textAlign: "center" }}
+                  component={motion.div}
+                  variants={cardItem}
+                >
+                  {tagline}
+                </Typography>
+                <Typography
+                  sx={{ maxWidth: 500, textAlign: "center" }}
+                  component={motion.div}
+                  variants={cardItem}
+                >
+                  {description}
+                </Typography>
+              </Stack>
+              <SocialsSection />
+            </Stack>
             <Image
               src={gravatarUrl}
               alt="Vercel Logo"
               width={imageSize}
               height={imageSize}
-              style={{ borderRadius: "50%" }}
+              style={{}}
             />
-            <Stack
-              component={motion.div}
-              variants={textContainer}
-              initial="hidden"
-              animate="visible"
-              spacing={0.5}
-              alignItems="center"
-            >
-              <Typography
-                variant="h4"
-                sx={{ textAlign: "center" }}
-                component={motion.div}
-                variants={cardItem}
-              >
-                {name}
-              </Typography>
-              <Typography
-                variant="h6"
-                sx={{ textAlign: "center" }}
-                component={motion.div}
-                variants={cardItem}
-              >
-                {tagline}
-              </Typography>
-              <Typography
-                sx={{ maxWidth: 500, textAlign: "center" }}
-                component={motion.div}
-                variants={cardItem}
-              >
-                {description}
-              </Typography>
-            </Stack>
-            <SocialsSection />
-          </Stack>
+          </Grid>
         </Container>
       </Box>
     </Box>

@@ -28,9 +28,7 @@ export default function FeedSection() {
     >
       <Container maxWidth="md">
         <Typography sx={{ textAlign: "center", mb: 8 }} variant="h5">
-          Featured (<SectionLink href="/projects">Projects</SectionLink>,{" "}
-          <SectionLink href="/blogs">Blogs</SectionLink>,{" "}
-          <SectionLink href="/talks">Talks</SectionLink>,)
+          <SectionLink href="/projects">PROJECTS</SectionLink>{" "}
         </Typography>
         <Masonry spacing={2} columns={{ xs: 1, sm: 2, md: 3 }}>
           {feed

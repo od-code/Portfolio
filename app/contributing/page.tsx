@@ -22,7 +22,7 @@ import { useTheme as useNextTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
-import FooterSection from "@/sections/footer-section";
+import FooterSection from "@/sections/work-section";
 import CTASection from "@/sections/cta-section";
 
 export default function ContributingPage() {

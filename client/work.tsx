@@ -1,7 +1,5 @@
 "use client";
 
-import CTASection from "@/sections/cta-section";
-import FooterSection from "@/sections/footer-section";
 import { experience, profile } from "@/utilities/content";
 import {
   ArrowBackRounded,
@@ -56,14 +54,8 @@ export default function WorkPageClient() {
             direction="row"
             alignItems="center"
             spacing={2}
-            justifyContent="space-between"
+            justifyContent="center"
           >
-            <Button
-              startIcon={<ArrowBackRounded />}
-              onClick={() => router.replace("/")}
-            >
-              Home
-            </Button>
             <Typography sx={{ textAlign: "center" }} variant="h5">
               Work
             </Typography>
@@ -149,6 +141,7 @@ export default function WorkPageClient() {
                   <Box sx={{ mb: 2.5 }}>
                     {exp.links.map((link) => (
                       <Button
+                        onClick={() => window.open(link.url, "_blank")}
                         key={link.url}
                         variant="outlined"
                         endIcon={<OpenInNew />}
@@ -164,8 +157,6 @@ export default function WorkPageClient() {
           </Timeline>
         </Container>
       </Box>
-      <FooterSection />
-      <CTASection />
     </>
   );
 }

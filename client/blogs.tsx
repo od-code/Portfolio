@@ -2,7 +2,7 @@
 
 import FeedCard from "@/components/feed-card";
 import CTASection from "@/sections/cta-section";
-import FooterSection from "@/sections/footer-section";
+import FooterSection from "@/sections/work-section";
 import { feed } from "@/utilities/content";
 import { cardContainer, cardItem } from "@/utilities/framer";
 import { ArrowBackRounded } from "@mui/icons-material";
