@@ -78,12 +78,6 @@ export type Profile = {
     twitter: string;
     github: string;
     linkedIn: string;
-    devto: string;
-    medium: string;
-    hashnode: string;
-    telegram: string;
-    sessionize: string;
-    figma: string;
   };
 };
 

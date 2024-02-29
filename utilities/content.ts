@@ -1,66 +1,25 @@
 import { Experience, Feed, Profile, Testimonial } from "./definitions";
 
-export const contributing = [
-  {
-    project: "react-email",
-    image: "https://react.email/static/favicon.svg",
-    link: "https://github.com/resend/react-email/commits?author=thecodeinfluencer",
-  },
-  {
-    project: "react-nextjs-mui-portfolio",
-    image:
-      "https://raw.githubusercontent.com/thecodeinfluencer/react-nextjs-mui-portfolio/main/app/favicon.ico",
-    link: "https://github.com/thecodeinfluencer/react-nextjs-mui-portfolio/commits?author=thecodeinfluencer",
-  },
-];
-
-export const testimonials: Testimonial[] = [
-  {
-    name: "Caroline Thuo",
-    role: "Senior Agile Coach, Safaricom PLC",
-    linkedIn: "https://www.linkedin.com/in/carolthuo/",
-    image:
-      "https://drive.google.com/uc?export=view&id=1Yq93CxfDe6jCBwotkH5DUfCT1CYslo48",
-    comment:
-      "Mark is an outstanding, multi-talented developer. I have witnessed his technical excellence, servant leadership and business acumen lead to delivery of both business and customer value. He is passionate about writing code and solving problems through the development of creative and innovative software.  He is also keen on producing quality user experiences that go along with his aesthetically superior user interface designs. His aptitude in successfully engaging stakeholders regardless of hierarchy was a key propeller of our team's success. His ability to boldly and respectfully present innovative ideas makes him an invaluable part of any team he works in.",
-  },
-  {
-    name: "Brian Kidya Asava",
-    role: "Senior Solutions Architect, Safaricom PLC",
-    linkedIn: "https://www.linkedin.com/in/brian-kidiya-asava-80438355/",
-    image:
-      "https://drive.google.com/uc?export=view&id=1xhTTYVNK1899bxUcnbrGi3OZ3hsq3-fs",
-    comment:
-      "I worked closely with Mark Aloo and i was privileged to be assigned as his peer buddy. He had joined the organisation as a Solution Architect intern, however he was ready and willing to provide support with any other tasks assigned to him specifically in UI/UX design in which he exemplarily performed. He fully filled the gap of a UI designer resource that was lacking in the team. He delivered all the designs for the various use cases that we are working on. Namely - C2B callback URL Management solution, Incident Management Solution, Documentation UI revamp, etc. Additionally, he went over and beyond to support other squads within the tribe where he supported the team in developing the Mali Miniapp and Paypal-mpesa Miniapp. Mark also showed great potential as a web developer, he has experience working with ReactJS, GraphQl, TypeScript, NextJs etc. I would highly recommend him for any available opportunity. He has demonstrated a good attitude and excellent collaboration skills with the team.",
-  },
-];
-
 export const profile: Profile = {
   primaryColor: "#22C55E",
   url: "thecodeinfluencer.dev",
-  name: "Mark Aloo",
-  title: "Mark Aloo - Portfolio",
-  tagline: "Frontend developer and Designer",
-  work: "Frontend Engineer at Safaricom PLC",
+  name: "Derrick Odari Atongo",
+  title: "Derrick Odari - Portfolio",
+  tagline: "Frontend developer and Creative",
+  work: "Frontend Engineer at Bitnorm",
   description:
     "I design and create beautiful web and mobile apps, speak, tweet and blog a lot about tech",
   gravatarUrl:
-    "https://gravatar.com/avatar/7a76f3703c41097061ed71d0139ba9396c8470c6e27c88bafd5c0190d50d3641?size=1024",
+    "https://gravatar.com/userimage/218128506/bacfb3a48483c11f52725a28490e5989.jpeg?size=256",
   spotify: {
     track: "https://open.spotify.com/track/5mhM7bfzv52bzfCzlq8vH1",
     artist: "Crayon, Ayra Starr",
     album: "Ngozi",
   },
   socials: {
-    twitter: "https://twitter.com/codeinfluencer/",
-    linkedIn: "https://www.linkedin.com/in/thecodeinfluencer/",
-    github: "https://github.com/thecodeinfluencer/",
-    medium: "https://medium.com/@thecodeinfluencer/",
-    hashnode: "https://hashnode.com/@thecodeinfluencer/",
-    devto: "https://dev.to/thecodeinfluencer/",
-    telegram: "https://t.me/thecodeinfluencer/",
-    sessionize: "https://sessionize.com/thecodeinfluencer",
-    figma: "https://www.figma.com/@codeinfluencer/",
+    twitter: "https://twitter.com/Derrick__Odari",
+    linkedIn: "https://www.linkedin.com/in/odari/",
+    github: "https://github.com/od-code",
   },
   skills: [
     { label: "React.js", category: "frameworks" },
