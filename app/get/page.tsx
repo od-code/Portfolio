@@ -67,20 +67,6 @@ export default function GetPage() {
               backgroundPosition: "center",
             }}
           />
-          <Typography sx={{ mt: 2 }} variant="h6">
-            Feel free to <b></b>fork this template on <b></b>GitHub! Just a
-            gentle request to give it a <b></b>star. I&apos;d be delighted if
-            you added your{" "}
-            <Link href="https://github.com/thecodeinfluencer/react-nextjs-mui-portfolio/blob/main/CONTRIBUTING.md">
-              contributions
-            </Link>
-            . For those looking to show some extra love, you can even snag this
-            template on{" "}
-            <Link href="https://codeinfluencer.gumroad.com/l/nextjs-mui-framer-portfolio">
-              Gumroad
-            </Link>{" "}
-            to support my caffeinated coding sessions. Many thanks in advance!
-          </Typography>
         </Container>
       </Box>
       <FooterSection />
