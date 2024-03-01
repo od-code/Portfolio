@@ -2,8 +2,8 @@ import { Experience, Feed, Profile } from "./definitions";
 // import { Ayesha, Sunnyside, Huddle } from ".";
 
 export const profile: Profile = {
-  primaryColor: "#22C55E",
-  url: "thecodeinfluencer.dev",
+  primaryColor: "#0b3a45",
+  url: "https://portfolio-od-code.vercel.app/",
   name: "Derrick Odari Atongo",
   title: "Derrick Odari - Portfolio",
   tagline: "Frontend developer and Creative",
