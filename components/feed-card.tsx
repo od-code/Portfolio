@@ -42,8 +42,6 @@ export default function FeedCard({ feed, ...other }: Props) {
       <CardActionArea
         onClick={() => {
           if (type == "project") router.push("/projects/" + feed.id);
-          if (type == "talk") router.push("/talks/" + feed.id);
-          if (type == "blog") window.open(feed?.blogLink, "_blank");
         }}
       >
         <CardContent
@@ -64,9 +62,7 @@ export default function FeedCard({ feed, ...other }: Props) {
             <ListItemText primary={title} secondary={`${summary}`} />
           </ListItem>
           <Typography variant="body2" color="GrayText">
-            {type != "project"
-              ? details.date
-              : details.releasedDate || details.endDate}
+            {type != "project" ? details.releasedDate || details.endDate : null}
           </Typography>
           <Box
             sx={{
