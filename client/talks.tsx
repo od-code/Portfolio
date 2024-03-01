@@ -67,13 +67,11 @@ export default function TalksPageClient() {
             spacing={2}
             columns={{ xs: 1, sm: 2, md: 3 }}
           >
-            {feed
-              .filter((feed) => feed.type == "talk")
-              .map((feed) => (
-                <motion.div key={feed.title} variants={cardItem}>
-                  <FeedCard feed={feed} />
-                </motion.div>
-              ))}
+            {feed.map((feed) => (
+              <motion.div key={feed.title} variants={cardItem}>
+                <FeedCard feed={feed} />
+              </motion.div>
+            ))}
           </Masonry>
         </Container>
       </Box>
