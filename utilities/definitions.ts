@@ -4,7 +4,6 @@ export type Feed = {
   id: number | string;
   title: string;
   summary: string;
-  description: string;
   featured: boolean;
   image: string;
   tags: string[];

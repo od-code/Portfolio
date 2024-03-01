@@ -3,7 +3,7 @@
 import FeedCard from "@/components/feed-card";
 import { feed } from "@/utilities/content";
 import { Masonry } from "@mui/lab";
-import { Box, Container, Typography, useTheme } from "@mui/material";
+import { Box, Container, Link, Typography, useTheme } from "@mui/material";
 import { useTheme as useNextTheme } from "next-themes";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -28,7 +28,9 @@ export default function FeedSection() {
     >
       <Container maxWidth="md">
         <Typography sx={{ textAlign: "center", mb: 8 }} variant="h5">
-          <SectionLink href="/projects">PROJECTS</SectionLink>{" "}
+          <Link href="https://github.com/od-code?tab=repositories ">
+            PROJECTS
+          </Link>{" "}
         </Typography>
         <Masonry spacing={2} columns={{ xs: 1, sm: 2, md: 3 }}>
           {feed

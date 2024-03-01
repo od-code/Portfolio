@@ -2,7 +2,6 @@
 
 import WrongResource from "@/components/wrong-resource";
 import CTASection from "@/sections/cta-section";
-import FooterSection from "@/sections/work-section";
 import { feed, profile } from "@/utilities/content";
 import { SlugPage } from "@/utilities/definitions";
 import { cardPopup } from "@/utilities/framer";
@@ -213,7 +212,6 @@ export default function ViewProjectPageClient({ params }: SlugPage) {
           )}
         </Container>
       </Box>
-      <FooterSection />
       <CTASection />
     </>
   );

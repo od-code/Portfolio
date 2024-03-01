@@ -27,7 +27,7 @@ export default function ProfileSection() {
   const { resolvedTheme } = useNextTheme();
 
   const below600 = useMediaQuery("(max-width: 600px)");
-  const imageSize = below600 ? 180 : 280;
+  const imageSize = below600 ? 250 : 300;
 
   useEffect(() => setIsClient(true), []);
 
@@ -58,7 +58,8 @@ export default function ProfileSection() {
             container
             rowSpacing={2}
             spacing={2}
-            justifyContent="space-between"
+            justifyContent={below600 ? "center" : "space-between"}
+            alignItems="center"
           >
             <Stack spacing={2} alignItems="center" justifyContent="center">
               <Stack
@@ -100,7 +101,7 @@ export default function ProfileSection() {
               alt="Vercel Logo"
               width={imageSize}
               height={imageSize}
-              style={{}}
+              style={{ justifyContent: "center", alignItems: "center" }}
             />
           </Grid>
         </Container>

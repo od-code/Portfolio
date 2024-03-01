@@ -90,92 +90,81 @@ export const experience: Experience[] = [
 
 export const feed: Feed[] = [
   {
-    id: "project-mtandao-web",
+    id: "project-ayesha-salon",
     bgTheme: "#3CB54F",
     featured: true,
-    title: "Mtandao Portal",
+    title: "Ayesha Salon",
     githubLink: "",
-    productLink: "",
-    summary: "A web app to show network coverage and complaints.",
-    description:
-      "Mtandao Portal is a comprehensive web application designed to enhance the user's experience in understanding and interacting with network coverage data. The app provides a user-friendly interface that allows users to visualize network coverage on an interactive map. Users can easily identify areas with strong signals, weak signals, or dead zones, enabling them to make informed decisions about connectivity.\n\nOne of the key features of Mtandao Portal is its ability to display network Key Performance Indicators (KPIs) in a clear and understandable manner. Through intuitive charts and graphs, users can analyze data related to network performance, such as signal strength, data speed, and reliability. This empowers both consumers and network administrators to assess the quality of service and identify areas for improvement.\n\nAdditionally, Mtandao Portal serves as a centralized hub for customer complaints and feedback. Users can submit and track their connectivity-related issues, allowing network providers to address concerns promptly. The portal streamlines the customer support process, fostering improved communication between users and service providers.",
+    productLink: "https://ayesha-palor.netlify.app/",
+    summary: "A web app to showcase services offered by a Salon.",
+    /* The line `// description: "Mt",` is a commented-out line in the feed array of projects. This
+    means that the description for the project "Ayesha Salon" is currently not provided or is
+    placeholder text ("Mt"). It is common to use comments to temporarily remove or add information
+    without affecting the functionality of the code. */
+    // description: "Mt",
     type: "project",
-    image:
-      "https://drive.google.com/uc?export=view&id=1aSaTopdxJt-UD44p0iNwD8N07DIiXwZ6",
-    links: [],
-    tags: ["React", "Next", "Typescript", "MUI", "Node"],
-    details: {
-      startDate: "Jun 2023",
-      endDate: "Ongoing",
-      releasedDate: "",
-      projectType: "Workplace",
-    },
-  },
-  {
-    id: "project-gumzo-ai",
-    bgTheme: "#008b8b",
-    featured: true,
-    title: "Gumzo AI",
-    githubLink: "",
-    productLink: "https://gumzoai.web.app/",
-    summary: "AI chat simulation use-cases using React.js and Node.js",
-    description:
-      "The Gumzo AI Chat project is a sophisticated chat simulation built on OpenAI technology, offering users an interactive and personalized experience. Leveraging cutting-edge technologies such as React, JavaScript, TypeScript, MUI, Node, Firebase, Express, and Google Cloud, the application provides a seamless and responsive interface for users to engage with different AI chatbots. The utilization of React and MUI ensures a modern and visually appealing frontend, while JavaScript and TypeScript enable efficient and maintainable code. The backend, powered by Node and Express, facilitates the seamless communication between the user interface and the underlying AI engine. This project showcases a strong technical foundation, combining frontend and backend technologies to create a robust and interactive chat application.",
-    type: "project",
-    image:
-      "https://drive.google.com/uc?export=view&id=1QkOs8BfqfG9MnttiJb_IkpOvzgQLWplq",
+    image: "public/images/Sunnyside.jpg",
     links: [
       {
-        label: "Gumzo Chat",
-        url: "https://gumzoai.web.app/",
-      },
-      {
-        label: "Gumzo API",
-        url: "https://gumzoai.el.r.appspot.com/",
+        label: "Ayesha Salon",
+        url: "https://ayesha-palor.netlify.app/",
       },
     ],
-    tags: [
-      "React",
-      "JavaScript",
-      "Typescript",
-      "MUI",
-      "Node",
-      "Firebase",
-      "Express",
-      "Google Cloud",
-    ],
+    tags: ["Html", "CSS", "Responsive Web Design"],
     details: {
-      startDate: "Jan 2023",
-      endDate: "Feb 2023",
+      startDate: "Oct 2022",
+      endDate: "Nov 2022",
       releasedDate: "",
       projectType: "Personal",
     },
   },
   {
-    id: "project-quotez-motivation",
-    bgTheme: "#DDDDDD",
+    id: "project-sunnyside",
+    bgTheme: "#008b8b",
     featured: true,
-    title: "Quotez App",
+    title: "Sunnyside Creatives",
     githubLink: "",
-    productLink:
-      "https://play.google.com/store/apps/details?id=com.appeazy.quotez",
-    summary:
-      "An android app built with React Native to get motivational quotes.",
-    description:
-      "Available on PlayStore, Quotez is a mobile app crafted with TypeScript and React Native Expo, seamlessly delivering a motivational boost. Leveraging an external API, it dynamically loads curated quotes. The app embraces user preferences with both light and dark themes, ensuring a personalized and visually pleasing experience. Immerse yourself in motivation with this technically sophisticated and visually adaptable application.",
+    productLink: "https://sunnyside-visionaries.netlify.app/",
+    summary: "A web application for a creative agency.",
+    // description: "The .",
     type: "project",
-    image:
-      "https://lh3.googleusercontent.com/yUH2ziBY-VqlQPvRFzoxDIFkBfj-BpN__GEjB7cuwVA-2NWCMndCFekXMYSar4MDQos",
+    image: "public/images/Sunnyside.jpg",
     links: [
       {
-        label: "Quotez on PlayStore ",
-        url: "https://play.google.com/store/apps/details?id=com.appeazy.quotez",
+        label: "Sunnyside Creatives",
+        url: "https://sunnyside-visionaries.netlify.app/",
       },
     ],
-    tags: ["React Native", "JavaScript", "Typescript", "Android", "Expo"],
+    tags: ["Html", "CSS", "Responsive Web Design"],
     details: {
-      startDate: "Nov 2023",
-      endDate: "Ongoing",
+      startDate: "Nov 2022",
+      endDate: "Dec 2022",
+      releasedDate: "",
+      projectType: "Personal",
+    },
+  },
+  {
+    id: "project-huddle",
+    bgTheme: "#DDDDDD",
+    featured: true,
+    title: "Huddle Community",
+    githubLink: "",
+    productLink: "https://huddle-neighborhood.netlify.app/",
+    summary: "A web app  for users to create and join communities.",
+    // description: "Available ",
+    type: "project",
+    image: "public/images/Sunnyside.jpg",
+
+    links: [
+      {
+        label: "Huddle Community ",
+        url: "https://huddle-neighborhood.netlify.app/",
+      },
+    ],
+    tags: ["Html", "CSS", "Responsive Web Design"],
+    details: {
+      startDate: "Dec 2022",
+      endDate: "Dec 2022",
       releasedDate: "",
       projectType: "Personal",
     },
