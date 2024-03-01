@@ -117,9 +117,9 @@ export default function ViewProjectPageClient({ params }: SlugPage) {
           <Typography variant="h5" sx={{ fontWeight: "bold", mt: 2 }}>
             {thisFeed?.title}
           </Typography>
-          <Typography component="span" sx={{ mt: 2 }}>
+          {/* <Typography component="span" sx={{ mt: 2 }}>
             <Markdown>{thisFeed?.description}</Markdown>
-          </Typography>
+          </Typography> */}
           {thisFeed.details.projectType == "Workplace" && (
             <Alert severity="info" sx={{ mt: 2 }}>
               This project is a work project and most of its details are
